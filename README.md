@@ -1,6 +1,13 @@
 # Realtime Video Object Detector
 This project is about object detection in real time video files. Computer vision is a huge part of the data science/AI domain which is substantially advanced over the last couple of years.
 
+
+## Sample ouput
+Following is a sample output of this project showing detected objects along with the class label on each frame of a traffic video. You cal also find it in the folder "/videos" of this project
+
+![Sample-output](https://github.com/majid-hosseini/Realtime-Object-Detector/blob/main/videos/Sample_output.gif)
+
+
 ## Object Detection Task
 
 The object detection task is based on following two prerequisite stages:
@@ -35,14 +42,7 @@ This project is a collection of developed utility functions to facilitate usage 
 	*plotted bounding boxed and the class names around each detected object 
 * processed frames are displayed using cv2.imshow method
 * save the video of processed frames indicating detected objects
-*close video files and destroy the window, which was created by the imshow method using cap.release() and cv2.destroyAllWindows() commands. 
-
-## Sample ouput
-Following is a sample output of this project showing detected objects along with the class label on each frame of a traffic video. You cal also find it in the folder "/videos" of this project
-
-![Sample-output](https://github.com/majid-hosseini/Realtime-Object-Detector/blob/main/videos/Sample_output.gif)
-
- 
+*close video files and destroy the window, which was created by the imshow method using cap.release() and cv2.destroyAllWindows() commands.  
 
 
 # Requirement
